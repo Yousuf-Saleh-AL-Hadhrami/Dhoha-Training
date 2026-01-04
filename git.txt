@@ -1,0 +1,7 @@
+
+
+Configure git in my computer to know who is the owner of the projects: 
+
+git config --global user.email "izkiboy@gmail.com"
+git config --global user.name "Yousuf AL Hadhrami"
+

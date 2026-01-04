@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.jfif">
+</head>
+<body>
+
+    <!-- 
+    Display Elements in HTML
+
+    - Block Elements 
+    - Inline Elements 
+    - Inline-Block
+    -->
+
+    <!-- 
+       Link in http 
+
+       https://www.moe.gov/users/10&name=ali#Anchor
+
+       scheme Domain Path Query_String Anchor 
+    -->
+
+
+    <!-- Headings -->
+    <h1 id="one" class="a b c">Welcome to Ministry of Education </h1>
+    <h2 class="a b c" >Welcome to Ministry of Education</h2>
+    <h4>Welcome to Ministry of Education</h4>
+    <h5>Welcome to Ministry of Education</h5>
+    <h3>Welcome to Ministry of Education</h3>
+    <h6>Welcome to Ministry of Education</h6>
+    
+    <hr>
+
+    <!-- Paragraph -->
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur quisquam accusamus deleniti sit quos perferendis numquam. Numquam provident ut ex aut a cupiditate ipsam unde, porro quaerat error similique! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia soluta necessitatibus illo hic fugit, vitae commodi possimus, laborum qui, a assumenda nulla ipsam eius harum unde optio eveniet porro dolorum.</p>
+
+    <hr>
+
+    <!-- Images  -->
+
+    <img src="./images/تنزيل.jfif" alt="Cat" />
+    <img src="./images/cat.jfif" alt="" />
+    <img src="./images/cat3.jfif" alt="" />
+
+    <hr>
+
+    <!-- Links -->
+
+    <a href="https://www.google.com">Google</a>
+    <a href="page2.html">Pag2</a>
+    <a href="page3.html">Pag3</a>
+
+    <hr>
+
+    <!-- Unordered Lists -->
+    <ul type="circle" >
+        <li>Oman</li>
+        <li>Qatar</li>
+        <li>Bahrain</li>
+        <li>Kuwait</li>
+        <li>UAE</li>
+    </ul>
+
+
+    <!-- Ordered Lists -->
+
+    <ol>
+         <li>Oman</li>
+        <li>Qatar</li>
+        <li>Bahrain</li>
+        <li>Kuwait</li>
+        <li>UAE</li>
+    </ol>
+
+<hr>
+
+<!-- Tables -->
+
+
+<table>
+    <thead>
+        <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Job</th>
+        <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>101</td>
+            <td>Dhoha</td>
+            <td>Nizwa</td>
+            <td>Software Engineer</td>
+            <td>
+                <a href="edit.html">Edit</a>
+                <a href="delete.html">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <th colspan="5">Footer of the Table</th>
+        </tr>
+    </tfoot>
+</table>
+
+<hr>
+
+<!-- Forms -->
+
+<form action="" method="POST">
+
+    <div>
+   <label for="id">ID</label>
+    <input type="text" name="id" id="id">
+    </div>
+
+       <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    </div>
+
+    <div>
+        <label for="address">Address</label>
+        <select name="address" id="address">
+            <option value="">Select The Address</option>
+            <option value="1">Nizwa</option>
+            <option value="2">Izki</option>
+            <option value="3">Adam</option>
+            <option value="4">Manah</option>
+            <option value="5">Bahla</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender" value="Male"> Male
+        <input type="radio" name="gender" id="gender" value="Female"> Female
+    </div>
+
+    <div>
+        <label for="languages">Programming Languages : </label>  <br>
+        <input type="checkbox" name="languages[]" id="languages" value="c++"> C++  <br>
+        <input type="checkbox" name="languages[]" id="languages" value="java"> Java <br>
+        <input type="checkbox" name="languages[]" id="languages" value="c#"> C# <br>
+        <input type="checkbox" name="languages[]" id="languages" value="php"> PHP <br>
+        <input type="checkbox" name="languages[]" id="languages" value="javascript"> JavaScript <br>
+    </div>
+
+    <button type="submit">Save</button>
+</form>
+
+</body>
+</html>
