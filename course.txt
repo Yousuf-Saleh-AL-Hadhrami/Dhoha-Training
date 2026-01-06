@@ -1,0 +1,12 @@
+
+
+By default, Windows disables running scripts like npm.ps1.
+
+FIX (Recommended – Safe)
+🔹 Option 1: Change execution policy for your user (best)
+
+Open PowerShell as Administrator
+
+Run:
+
+ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned

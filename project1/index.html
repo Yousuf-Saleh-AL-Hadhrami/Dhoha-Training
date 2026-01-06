@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>الصفحة الرئيسية</title>
     <link rel="icon" type="image/x-icon" href="./images/favicon.jfif">
     <!-- External Style -->
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
     <link rel="stylesheet" href="./css/style.css">
+<!-- Internal Style -->
+    <style>
+        /* h1{
+            background-color: blue !important;
+        } */
+    </style>
 </head>
 <body>
 
@@ -26,14 +33,39 @@
        scheme Domain Path Query_String Anchor 
     -->
 
-
     <!-- Headings -->
-    <h1 id="one" class="a b c">Welcome to Ministry of Education </h1>
+     <!-- Inline Style -->
+    <h1 id="one" class="a b c"  >Welcome to Ministry of Education </h1>
     <h2 class="a b c" >Welcome to Ministry of Education</h2>
     <h4>Welcome to Ministry of Education</h4>
     <h5>Welcome to Ministry of Education</h5>
     <h3>Welcome to Ministry of Education</h3>
     <h6>Welcome to Ministry of Education</h6>
+
+    
+    <section>
+       <div>I'm Div inside the Section</div>
+    </section>
+
+      
+    <section>
+       <div>I'm Div inside the Section</div>
+    </section>
+
+    <div class="box"></div>
+
+    <div class="box bg-img"></div>
+
+
+      
+    <section>
+       <div>I'm Div inside the Section</div>
+    </section>
+
+
+
+
+
     
     <hr>
 
@@ -103,8 +135,8 @@
             <td>Nizwa</td>
             <td>Software Engineer</td>
             <td>
-                <a href="edit.html">Edit</a>
-                <a href="delete.html">Delete</a>
+                <a href="edit.html" class="btn-primary">Edit</a>
+                <a href="delete.html" class="btn-danger" id="delete">Delete</a>
             </td>
         </tr>
     </tbody>
@@ -158,8 +190,12 @@
         <input type="checkbox" name="languages[]" id="languages" value="javascript"> JavaScript <br>
     </div>
 
-    <button type="submit">Save</button>
+    <button type="submit" id="btn">Save</button>
 </form>
 
+<script src="./js/main.js"></script>
+<script>
+    // Internal Js Code 
+</script>
 </body>
 </html>
