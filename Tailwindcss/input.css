@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer components{
+
+    .btn-primary{
+
+        background-color: blue;
+        color:white;
+    }
+}
