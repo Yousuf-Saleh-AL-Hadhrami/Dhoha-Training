@@ -1,5 +1,14 @@
 <?php 
 
+/*
+  to connect to database in php there are three ways 
+
+  - mysqli => procedural 
+  - mysqli => oop 
+  - PDO  => PHP Data Object 
+
+*/
+
 $hostname ="localhost";
 $username = "root";
 $dbname = "dhoha";
