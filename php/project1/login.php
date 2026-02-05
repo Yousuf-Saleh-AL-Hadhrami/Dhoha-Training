@@ -24,14 +24,14 @@ if($_SERVER["REQUEST_METHOD"] === "POST")
   
 if(empty($usernameError) && empty($passwordError)){
 
-  $query = mysqli_query($connection," SELECT * FROM users WHERE username = '$username'");
+  $query = mysqli_query($connection," SELECT * FROM users WHERE email = '$username'");
   $user = mysqli_fetch_array($query);
 
   if($user){
 
        if(password_verify($password, $user["password"])){
 
-       $_SESSION["username"] = $user["username"];
+       $_SESSION["username"] = $user["email"];
        $_SESSION["name"] = $user["name"];
        $_SESSION["role"] = $user["role"];
        $_SESSION["login"] = true;

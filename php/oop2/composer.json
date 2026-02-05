@@ -1,0 +1,20 @@
+{
+    "name": "moe/oop2",
+    "description": "This is just for learning",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yousuf AL Hadhrami",
+            "email": "izkiboy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nesbot/carbon": "^3.11"
+    }
+}

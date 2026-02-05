@@ -1,0 +1,21 @@
+
+
+
+OOP Main Concepts:
+
+1 - Class vs Object 
+2 - Properties and methods
+3- Constants 
+4- static properties and static methods 
+5- $this vs self vs static 
+6- Inheritance 
+7- Encapsulation 
+8- Polymorphism 
+9- Abstraction 
+10- Interface 
+11- Traits 
+12- Exceptions 
+13- Namespaces 
+14- Object Cloning
+15- Magic Methods 
+16- Composer and Autoloading 
