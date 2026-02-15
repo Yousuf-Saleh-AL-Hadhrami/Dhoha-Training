@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'moe1/cps',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'moe1/cps' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'yousuf-alhadhrami/helpers' => array(
+            'pretty_version' => 'v1.0.1',
+            'version' => '1.0.1.0',
+            'reference' => '5cbc4c94e8708d44b453cfe01b03d92cdc5ab438',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yousuf-alhadhrami/helpers',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'yousuf-alhadhrami/math' => array(
+            'pretty_version' => 'v1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => '9829853778f91632985bd45c3bcfac8b5ca8ddad',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yousuf-alhadhrami/math',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

@@ -1,0 +1,19 @@
+{
+    "name": "moe1/cps",
+    "autoload": {
+        "psr-4": {
+            "Moe1\\Cps\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yousuf AL Hadhrami",
+            "email": "izkiboy@gmail.com"
+        }
+    ],
+    "require": {
+        "yousuf-alhadhrami/helpers": "^1.0",
+        "yousuf-alhadhrami/math": "^1.0"
+
+    }
+}

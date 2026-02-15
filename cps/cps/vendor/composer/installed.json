@@ -1,0 +1,89 @@
+{
+    "packages": [
+        {
+            "name": "yousuf-alhadhrami/helpers",
+            "version": "v1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yousuf-Saleh-AL-Hadhrami/helpers-repo.git",
+                "reference": "5cbc4c94e8708d44b453cfe01b03d92cdc5ab438"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Yousuf-Saleh-AL-Hadhrami/helpers-repo/zipball/5cbc4c94e8708d44b453cfe01b03d92cdc5ab438",
+                "reference": "5cbc4c94e8708d44b453cfe01b03d92cdc5ab438",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "time": "2025-10-16T07:28:10+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YousufAlhadhrami\\Helpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yousuf AL Hadhrami",
+                    "email": "izkiboy@gmail.com"
+                }
+            ],
+            "description": "This package is just for learning",
+            "support": {
+                "issues": "https://github.com/Yousuf-Saleh-AL-Hadhrami/helpers-repo/issues",
+                "source": "https://github.com/Yousuf-Saleh-AL-Hadhrami/helpers-repo/tree/v1.0.1"
+            },
+            "install-path": "../yousuf-alhadhrami/helpers"
+        },
+        {
+            "name": "yousuf-alhadhrami/math",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yousuf-Saleh-AL-Hadhrami/my-first-php-package-math.git",
+                "reference": "9829853778f91632985bd45c3bcfac8b5ca8ddad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Yousuf-Saleh-AL-Hadhrami/my-first-php-package-math/zipball/9829853778f91632985bd45c3bcfac8b5ca8ddad",
+                "reference": "9829853778f91632985bd45c3bcfac8b5ca8ddad",
+                "shasum": ""
+            },
+            "time": "2025-10-19T04:06:04+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "YousufAlhadhrami\\Math\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yousuf AL-Hadhrami",
+                    "email": "izkiboy@gmail.com"
+                }
+            ],
+            "description": "This just for learning how to make a php package and upload it to github and packgist",
+            "support": {
+                "issues": "https://github.com/Yousuf-Saleh-AL-Hadhrami/my-first-php-package-math/issues",
+                "source": "https://github.com/Yousuf-Saleh-AL-Hadhrami/my-first-php-package-math/tree/v1.0.0"
+            },
+            "install-path": "../yousuf-alhadhrami/math"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
